@@ -23,15 +23,15 @@ body, html {
 }
 
 .sides {
-    z-index: 11;
+    z-index: 2;
 }
 
 .center {
-    z-index: 10;
+    z-index: 1;
 }
 
 .center:hover {
-    z-index: 12;
+    z-index: 3;
 }
 
 a {
@@ -42,7 +42,7 @@ a {
     align-items: center;
     text-decoration: none;
     transition: box-shadow .3s;
-    background-image: none;
+    transition: background-color .3s;
 }
 
 a, a:visited {
@@ -51,9 +51,9 @@ a, a:visited {
 }
 a:hover {
     background-color:#222222; 
-    color: rgb(144, 231, 122);
-    -webkit-box-shadow: 0px 0px 10px -2px #fff;
-            box-shadow: 0px 0px 10px -2px #fff;
+    color: #26C485;
+    -webkit-box-shadow: 0px 0px 10px -2px #26C485;
+            box-shadow: 0px 0px 10px -2px #26C485;
 }
 
 @media (max-width: 767px) {
